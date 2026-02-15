@@ -4,10 +4,10 @@
 
 ## Tech Stack
 
-- **Framework:** Next.js 16 (App Router), TypeScript
+- **Framework:** astro (App Router), TypeScript
 - **Styling:** Tailwind CSS + shadcn/ui (copy-paste components)
-- **Backend:** Supabase (PostgreSQL + Auth + Storage) - optional
-- **Deployment:** Vercel
+- **Backend:** mongodb + nodejs - optional
+- **Deployment:** Vercel - optional 
 - **Validation:** Zod + react-hook-form
 - **State:** React useState / Context API
 
@@ -15,7 +15,7 @@
 
 ```
 src/
-  app/              Pages (Next.js App Router)
+  app/              Pages (astro App Router)
   components/
     ui/             shadcn/ui components (NEVER recreate these)
   hooks/            Custom React hooks
